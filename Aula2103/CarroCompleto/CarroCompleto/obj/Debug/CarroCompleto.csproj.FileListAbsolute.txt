@@ -1,0 +1,6 @@
+C:\Users\201354\Documents\Codigos_OOED_2022\Aula2103\CarroCompleto\CarroCompleto\bin\Debug\CarroCompleto.exe.config
+C:\Users\201354\Documents\Codigos_OOED_2022\Aula2103\CarroCompleto\CarroCompleto\bin\Debug\CarroCompleto.exe
+C:\Users\201354\Documents\Codigos_OOED_2022\Aula2103\CarroCompleto\CarroCompleto\bin\Debug\CarroCompleto.pdb
+C:\Users\201354\Documents\Codigos_OOED_2022\Aula2103\CarroCompleto\CarroCompleto\obj\Debug\CarroCompleto.csprojResolveAssemblyReference.cache
+C:\Users\201354\Documents\Codigos_OOED_2022\Aula2103\CarroCompleto\CarroCompleto\obj\Debug\CarroCompleto.exe
+C:\Users\201354\Documents\Codigos_OOED_2022\Aula2103\CarroCompleto\CarroCompleto\obj\Debug\CarroCompleto.pdb

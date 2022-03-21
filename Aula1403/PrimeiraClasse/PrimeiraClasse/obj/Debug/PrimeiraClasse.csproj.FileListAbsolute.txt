@@ -1,0 +1,6 @@
+C:\Users\201354\Documents\Codigos_OOED_2022\PrimeiraClasse\PrimeiraClasse\bin\Debug\PrimeiraClasse.exe.config
+C:\Users\201354\Documents\Codigos_OOED_2022\PrimeiraClasse\PrimeiraClasse\bin\Debug\PrimeiraClasse.exe
+C:\Users\201354\Documents\Codigos_OOED_2022\PrimeiraClasse\PrimeiraClasse\bin\Debug\PrimeiraClasse.pdb
+C:\Users\201354\Documents\Codigos_OOED_2022\PrimeiraClasse\PrimeiraClasse\obj\Debug\PrimeiraClasse.csprojResolveAssemblyReference.cache
+C:\Users\201354\Documents\Codigos_OOED_2022\PrimeiraClasse\PrimeiraClasse\obj\Debug\PrimeiraClasse.exe
+C:\Users\201354\Documents\Codigos_OOED_2022\PrimeiraClasse\PrimeiraClasse\obj\Debug\PrimeiraClasse.pdb
