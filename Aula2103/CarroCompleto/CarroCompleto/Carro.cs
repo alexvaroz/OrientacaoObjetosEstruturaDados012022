@@ -50,7 +50,7 @@ namespace CarroCompleto
                     {
                         velocidadeAtual = velocidadeMaxima;
                     }
-                    Console.WriteLine($"A velocidade atual é {velocidadeAtual}");
+                    MostrarVelocidadeAtual();
                 }
                 else
                 {
@@ -60,6 +60,26 @@ namespace CarroCompleto
             else
             {
                 Console.WriteLine("O carro está desligado...");
+            }
+        }
+
+        public void MostrarVelocidadeAtual()
+        {
+            Console.WriteLine($"A velocidade atual é {velocidadeAtual}");
+        }
+        public void Frear()
+        {
+            if (velocidadeAtual > 0)
+            {
+                velocidadeAtual -= 30;
+                if (velocidadeAtual < 0)
+                {
+                    velocidadeAtual = 0;
+                }
+                MostrarVelocidadeAtual();
+            } else
+            {
+                Console.WriteLine("O carro está parado!");
             }
         }
     }

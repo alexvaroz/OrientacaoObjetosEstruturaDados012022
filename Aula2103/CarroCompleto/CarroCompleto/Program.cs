@@ -28,6 +28,15 @@ namespace CarroCompleto
             meuCarro.Acelerar();
             meuCarro.Acelerar();
             meuCarro.Acelerar();
+            meuCarro.Frear();
+            meuCarro.Frear();
+            meuCarro.Frear();
+            meuCarro.Frear();
+            meuCarro.Frear();
+            meuCarro.Frear();
+            meuCarro.Frear();
+            meuCarro.Frear();
+            meuCarro.Frear();
             Console.ReadLine();
 
         }
