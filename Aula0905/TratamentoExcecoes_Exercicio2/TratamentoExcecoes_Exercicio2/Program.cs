@@ -12,27 +12,31 @@ namespace TratamentoExcecoes_Exercicio2
         {
             Console.WriteLine("Digite um número:");
             double numeroDigitado = double.Parse(Console.ReadLine());
-            Console.WriteLine($"O resultado é "+
-                $"{CalcularRaizQuadradaNumero(numeroDigitado)}");
+            try {
+                Console.WriteLine($"O resultado é " +
+                    $"{CalcularRaizQuadradaNumero(numeroDigitado)}");
+            }
+            catch (NegativeNumberException nne)
+            {
+                Console.WriteLine(nne.Message);
+            }
+            finally
+            {
+                Console.WriteLine("Cálculo finalizado");
+            }
             Console.ReadLine();
         }
 
         static double CalcularRaizQuadradaNumero(double numero)
         {
-            try {
-                if (numero < 0)
-                {
-                    throw new NegativeNumberException("Só são aceitos números postivos");
-                }
-                return Math.Sqrt(numero);
-            } catch (NegativeNumberException nne)
+
+            if (numero < 0)
             {
-                Console.WriteLine(nne.Message);
-                return -1;
-            }finally {
-                Console.WriteLine("Cálculo finalizado");
+                throw new NegativeNumberException("Só são aceitos números postivos");
             }
-            
-        }
+            return Math.Sqrt(numero);
+
+        }    
+        
     }
 }
