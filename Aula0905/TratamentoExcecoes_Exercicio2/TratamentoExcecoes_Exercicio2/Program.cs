@@ -10,15 +10,21 @@ namespace TratamentoExcecoes_Exercicio2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Digite um número:");
-            double numeroDigitado = double.Parse(Console.ReadLine());
-            try {
+            try
+            {
+                Console.WriteLine("Digite um número:");
+                double numeroDigitado = double.Parse(Console.ReadLine());
+
                 Console.WriteLine($"O resultado é " +
                     $"{CalcularRaizQuadradaNumero(numeroDigitado)}");
             }
             catch (NegativeNumberException nne)
             {
                 Console.WriteLine(nne.Message);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Ocorreu um erro...");
             }
             finally
             {
@@ -36,7 +42,7 @@ namespace TratamentoExcecoes_Exercicio2
             }
             return Math.Sqrt(numero);
 
-        }    
-        
+        }
+
     }
 }
