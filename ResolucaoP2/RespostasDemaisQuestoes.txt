@@ -1,0 +1,45 @@
+Entender as diferentes formas de percorrimento das árvores é uma forma importante de se aprimorar nos algoritmos que pertinentes a este tipo de estrutura. 
+Sobre isso, julgue a seguinte sentença: 
+Em qualquer árvore binária de busca contendo palavras nos seus nós, o percorrimento pré-fixado retornará a relação dos valores em ordem alfabética.
+
+Resposta: FALSO. É o percorrimento IN-FIXADO que resulta na relação ordenada dos valores.
+
+
+No C#, qual o nome da classe que implementa a interface IList e se caracteriza por prescindir da tipagem dos itens que serão incluídos na estrutura?
+
+Resposta: ArrayList . (Nenhuma das opções)
+
+
+No C#, a leitura e escrita de arquivos externos é realizada por duas classes pertencentes ao namespace "System.IO". Os nomes delas são, respectivamente:
+
+Resposta: StreamReader e StreamWriter. (Nenhuma das opções)
+
+
+Apresente a ordem dos nós visitados quando é realizado o percorrimento "POS-FIXADO"
+
+Resposta: EIFCGHDBA
+
+
+Considerando a árvore binária abaixo, assinale a alternativa correta:
+
+Resposta: A árvore tem altura 3.
+
+
+
+Qual a estrutura de dados na qual os elementos são removidos na ordem inversa daquela que foram inseridos?
+
+Resposta: Pilha.
+
+
+
+Qual a estrutura de dados na qual todos elementos são um par composto por  uma chave e um respectivo valor, que relaciona os dois.
+
+Resposta: Dicionário.
+
+
+
+A estrutura de dados "Set" é caracterizada por guardar elementos sem repeti-los.
+
+Resposta: Verdadeiro.
+
+ 
